@@ -8,6 +8,8 @@ msg1: .asciiz "Give a number: "
 list: .word 3, 0, 1, 2, 6, -2, 4, 7, 3, 7
 list: .space 1000  # 250 elements of word 
 
+http://courses.cs.vt.edu/~cs2505/summer2011/Notes/pdf/T23.MIPSArrays.pdf
+
 .text
 .globl main
 main:
